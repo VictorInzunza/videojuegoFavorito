@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+body {
+    padding: 0%;
+    font-size: 16px;
+    background-image: url(fondo.webp);
+    background-position: center center;
+    background-repeat: repeat-y;
+    background-attachment: local;
+    background-size: 100%;
+    font-family: sans-serif;
+}
+
+#descripcion {
+    margin-top: .51%;
+    margin-left: .51%;
+    margin-right: .51%;
+    box-sizing: border-box;
+    padding: 55px;
+    background-image: url(fondoCaja.webp);
+    position: relative;
+    border-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt45749e0fed8aa592/blte8df32260aa76d67/60192ff814a90a0bfc552b1d/frame.png") 140 repeat;
+    border-image-width: 1;
+    border-image-width: 150px;
+}
+
+#experiencia {
+    margin-top: .51%;
+    margin-left: .51%;
+    margin-right: .51%;
+    box-sizing: border-box;
+    padding: 55px;
+    background-image: url(fondoCaja.webp);
+    position: relative;
+    border-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt45749e0fed8aa592/blte8df32260aa76d67/60192ff814a90a0bfc552b1d/frame.png") 140 repeat;
+    border-image-width: 1;
+    border-image-width: 150px;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+p {
+
+    color: rgb(206, 206, 206);
+}
+
+ul {
+    color: rgb(206, 206, 206);
+}
+
+li {
+    color: rgb(206, 206, 206);
+}
+
+legend {
+    color: rgb(206, 206, 206);
+}
+
+details {
+    color: rgb(206, 206, 206);
+}
+
+em {
+    color: rgb(206, 206, 206);
+}
+
+.delimitador {
+
+    width: 560px;
+    margin: auto;
+
+}
+
+/* El contenedor con el padding-top crea el tamaño del vídeo */
+.contenedor {
+
+    height: 0px;
+    width: 100%;
+    max-width: 460px;
+    /* Así establecemos el ancho máximo (si lo queremos) */
+    padding-top: 56.25%;
+    /* Relación: 16/9 = 56.25% */
+    position: relative;
+
+}
+
+/* El iframe se adapta al tamaño del contenedor */
+iframe {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+
+}
